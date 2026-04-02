@@ -29,6 +29,13 @@ const cards = [
     icon: '✓',
   },
   {
+    title: 'AI-assisted dev',
+    subtitle: 'Building & learning with AI coding tools',
+    items: skills.aiAssisted,
+    gradient: 'from-amber-50/90 to-white/90 dark:from-amber-950/25 dark:to-slate-900/80',
+    icon: '✦',
+  },
+  {
     title: 'Soft skills',
     items: skills.soft,
     gradient: 'from-violet-50/90 to-white/90 dark:from-violet-950/35 dark:to-slate-900/80',
@@ -45,15 +52,15 @@ export function Skills() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Skills"
-          title="Technical depth, growing QA craft, human skills"
-          subtitle="Categorized so recruiters can map you quickly to PHP/Laravel, QA, or hybrid roles."
+          title="Stack, QA, AI-assisted building, and collaboration"
+          subtitle="Traditional engineering plus modern AI tools — used with discipline, review, and quality in mind."
         />
         <motion.div
           variants={container}
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, margin: '-80px' }}
-          className="grid gap-6 md:grid-cols-3"
+          className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4"
         >
           {cards.map((card) => (
             <motion.div
@@ -67,7 +74,12 @@ export function Skills() {
                   {card.icon}
                 </div>
                 <h3 className="font-display text-lg font-bold text-slate-900 dark:text-white">{card.title}</h3>
-                <ul className="mt-4 flex flex-wrap gap-2">
+                {card.subtitle && (
+                  <p className="mt-1 text-xs font-medium leading-snug text-slate-500 dark:text-slate-400">
+                    {card.subtitle}
+                  </p>
+                )}
+                <ul className={`flex flex-wrap gap-2 ${card.subtitle ? 'mt-3' : 'mt-4'}`}>
                   {card.items.map((s) => (
                     <li
                       key={s}

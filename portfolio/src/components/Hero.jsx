@@ -14,7 +14,7 @@ const item = {
   show: { opacity: 1, y: 0, transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] } },
 }
 
-const stackPills = ['Laravel & PHP', 'MySQL', 'Growing in QA']
+const stackPills = ['Laravel & PHP', 'MySQL', 'QA & AI-assisted dev']
 
 export function Hero() {
   return (

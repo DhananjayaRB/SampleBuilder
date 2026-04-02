@@ -19,6 +19,7 @@ export const aboutParagraphs = [
   'I am a software developer with around three years of professional experience building and maintaining business applications using Laravel, PHP, MySQL, and the classic web stack — HTML, CSS, JavaScript, jQuery, and AJAX. I enjoy debugging, refining workflows, and shipping features that teams actually rely on every day.',
   'After 2021, I took a deliberate pause: I prepared for UPSC, which deepened my discipline, focus, and ability to absorb large bodies of information under pressure. Later, I embraced motherhood — a chapter that strengthened my sense of responsibility, patience, and balancing competing priorities without losing sight of goals.',
   'Today I am actively restarting my career with clarity and momentum: I am strengthening my foundation in software testing and QA while sharpening my skills in modern web technologies. I bring proven delivery experience, a learner’s mindset, and the resilience of someone who has already navigated major life transitions — and chosen to come back stronger.',
+  'I am also investing in AI-assisted development: learning to prototype and ship faster with tools like Cursor, Replit, ChatGPT, Claude, Gemini, Bolt, and Lovable — always pairing generated output with careful review, a testing mindset, and ownership of what goes to production.',
 ]
 
 export const skills = {
@@ -37,6 +38,16 @@ export const skills = {
     'QA Concepts',
     'Test Case Writing',
     'Manual Testing',
+  ],
+  /** Modern AI coding assistants & rapid app builders */
+  aiAssisted: [
+    'Cursor',
+    'Replit',
+    'ChatGPT',
+    'Claude',
+    'Gemini',
+    'Bolt',
+    'Lovable',
   ],
   soft: ['Communication', 'Leadership', 'Adaptability', 'Problem Solving'],
 }
