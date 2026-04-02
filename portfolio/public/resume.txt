@@ -1,0 +1,24 @@
+POORNIMA G
+Software Developer | QA Learner | Career Restart
+Bengaluru, India
+
+Contact: Replace with your email and phone before sharing publicly.
+
+SUMMARY
+Software developer with ~3 years of experience building Laravel/PHP business applications.
+Restarting career after structured time for UPSC preparation and family; upskilling in QA and modern web.
+
+EXPERIENCE
+Resolve Biz Apps — Software Engineer
+- Laravel, MySQL, jQuery/AJAX business modules (Savings Proof, Expense, related workflows).
+
+RSP Innov — Software Developer
+- Leave Management, Health Planner, Petty Cash, Expense systems.
+
+TECHNICAL SKILLS
+PHP, Laravel, MySQL, HTML, CSS, JavaScript, jQuery, AJAX
+
+LEARNING FOCUS
+Software testing, QA concepts, test case design, manual testing
+
+Replace this file with your real resume PDF; update the Hero download link to point to /your-resume.pdf
