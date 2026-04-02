@@ -127,14 +127,11 @@ export function Hero() {
               <div className="absolute -bottom-16 -left-10 h-40 w-40 rounded-full bg-teal-400/15 blur-3xl dark:bg-teal-500/15" />
 
               <div className="relative flex items-start gap-4">
-                <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-2xl shadow-glow ring-2 ring-white/90 dark:ring-slate-700/90">
-                  <img
-                    src={profile.photo}
-                    alt={`${profile.name} — professional photo`}
-                    width={160}
-                    height={160}
-                    className="h-full w-full object-cover object-top"
-                  />
+                <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-indigo-600 text-xl font-bold text-white shadow-glow">
+                  {profile.name
+                    .split(' ')
+                    .map((n) => n[0])
+                    .join('')}
                 </div>
                 <div>
                   <p className="font-display text-lg font-bold text-slate-900 dark:text-white">

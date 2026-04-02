@@ -11,8 +11,6 @@ export const profile = {
   phone: '+91 89705 79244',
   phoneTel: '+918970579244',
   linkedin: 'https://www.linkedin.com/in/poornima-g-placeholder',
-  /** Served from /public/profile.png */
-  photo: '/profile.png',
   /** Opens in a new tab (e.g. Google Drive viewer) */
   resumeUrl: 'https://drive.google.com/file/d/1ABUIHvMyDLakSxHTUgmN8L0E9FojhWM0/view',
 }

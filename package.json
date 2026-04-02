@@ -1,0 +1,5 @@
+{
+  "name": "sample-builder",
+  "private": true,
+  "description": "Monorepo root — the Vite app lives in /portfolio. Vercel uses vercel.json to build portfolio/ and output portfolio/dist."
+}

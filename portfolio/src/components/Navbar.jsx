@@ -43,14 +43,11 @@ export function Navbar() {
             href="#top"
             className="group flex items-center gap-2 font-display text-lg font-bold tracking-tight text-slate-900 dark:text-white"
           >
-            <span className="relative h-9 w-9 shrink-0 overflow-hidden rounded-xl shadow-glow ring-2 ring-white/80 dark:ring-slate-800">
-              <img
-                src={profile.photo}
-                alt=""
-                width={72}
-                height={72}
-                className="h-full w-full object-cover object-top"
-              />
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-indigo-600 text-sm font-extrabold text-white shadow-glow">
+              {profile.name
+                .split(' ')
+                .map((n) => n[0])
+                .join('')}
             </span>
             <span>
               {profile.name.split(' ')[0]}
